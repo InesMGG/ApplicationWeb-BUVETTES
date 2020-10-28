@@ -1,0 +1,93 @@
+html, body{ height:100%; margin:0; }
+body{ 
+	display:flex; 
+	flex-direction:column; 
+}
+.Haut
+{
+	background-color: white;
+	border-width: large; 
+}
+.Haut img
+{
+	vertical-align: middle;
+}
+.Haut p
+{
+	color:darkblue;
+	position: left;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.Menu
+{
+	background-color: darkblue;
+	border: white solid;
+	border-width: large;
+	word-spacing: 10px;
+	text-align: center;
+}
+.Menu a
+{
+	color:white;
+	text-decoration:underline;
+	font-weight: bold;
+	font-family: Georgia;
+}
+table
+{
+	border-collapse: collapse;
+}
+td
+{
+	border: 1px solid black;
+	padding: 10px;
+	height: 10%;
+}
+.Bas
+{
+	background-color: darkblue;
+	bottom: 0;
+	color: white;
+	font-family: Georgia;
+	/*position: fixed;*/
+	margin-top:auto; 
+	text-align: center;
+	width: 100%;
+}
+
+/*.Haut
+{
+	background-color: white;
+	border-width: large; 
+}
+.Haut img
+{
+	vertical-align: middle;
+}
+.Haut p
+{
+	color:darkblue;
+	position: left;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.Menu
+{
+	background-color: darkblue;
+	border: white solid;
+	border-width: large;
+	word-spacing: 10px;
+	text-align: center;
+}
+.Menu a
+{
+	color:white;
+	text-decoration:underline;
+	font-weight: bold;
+	font-family: Georgia;
+}*/
