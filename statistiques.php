@@ -3,11 +3,13 @@
 <?php
 	require_once('fonctions.php');
 	Menu();
-	?>
-    <?php
-        require_once('Connect.php');
-        $dbh = doConnect();
-    ?>
+?>
+
+<?php
+    require_once('Connect.php');
+    $dbh = doConnect();
+?>
+    
     <h3 align="center">Choisisser votre type de statistique</h3>
 	<form align="center" method="post" action="resultstatistiques.php">
 		<button name='5Vol' type='submit' value='Valider' class="button">5 volontaires les plus présents</button>

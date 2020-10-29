@@ -6,7 +6,6 @@ function Menu(){
     echo "<link rel='stylesheet' href='style.css'>";
     echo "<title>Buvettes</title>";
     echo "</head>";
-    echo "<body>";
     echo "<header class='Haut'>";
     echo " <p><img src='img/Logo.jpg' alt='Logo du site'/>
         L'application de gestion des buvettes du festival</p>";   
