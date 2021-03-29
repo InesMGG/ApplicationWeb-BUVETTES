@@ -4,6 +4,11 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
+
+DROP DATABASE IF EXISTS AppWebBUVETTES;
+CREATE DATABASE AppWebBUVETTES;
+USE AppWebBUVETTES;
+
 --
 -- Base de données :  buvettes
 --
@@ -11,7 +16,7 @@ SET time_zone = "+00:00";
 --
 -- Structure de la table Buvette
 --
-CREATE TABLE Buvette 
+CREATE TABLE Buvette
 (
   idB int(11) NOT NULL,
   nomB varchar(5) NOT NULL,
@@ -77,7 +82,7 @@ INSERT INTO Buvette (idB, nomB, emplacement, responsable) VALUES
 --
 -- Structure de la table Equipe
 --
-CREATE TABLE Equipe 
+CREATE TABLE Equipe
 (
   idE varchar(5) NOT NULL,
   pays varchar(18) NOT NULL,
